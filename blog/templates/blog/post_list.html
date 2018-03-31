@@ -12,11 +12,10 @@
         Disgust : {{ post.disgustScore }} |
         Fear : {{ post.fearScore }} |
         Joy : {{ post.joyScore }} |
-        Sad : {{ post.sadScore }}</p>
+        Sad : {{ post.sadScore }}</p>   
 
-           <span style="background-color:yellow">Watson Translates to Spanish:</span>
+           <p>{{ post.translation}}</p>
            <p>Word Count: {{ post.wordcount}} | Character Count: {{post.charactercount}}</p>
-           <p>News Spanish: {{ post.translation}}</p>
 
        </div>
    {% endfor %}
